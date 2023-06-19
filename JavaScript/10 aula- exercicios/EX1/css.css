@@ -1,0 +1,48 @@
+.dia{
+    margin: auto;
+    text-align: center;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    margin-bottom: 0;
+}
+.dia > h2{
+    border: 1px solid ;
+    padding: 10px;
+    max-width:  230px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+.fundo{
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+   
+}
+.calcu{
+    background-color: rgb(134, 139, 138);
+    padding: 5px;
+    max-width: 135px;
+    margin: auto;
+    
+}
+.calcu > input{
+    max-width: 125px;
+    margin: 0;
+}
+.calcu > h2{
+    border: 1px solid black;
+    padding: 5px;
+    max-width: 125px;
+}
+.calcu > button{
+    padding: 5px;
+    width: 30px;
+}
+.calcu > #refresh{
+    padding: 3px;
+    width: 100px;
+
+}

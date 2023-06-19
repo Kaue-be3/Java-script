@@ -1,0 +1,9 @@
+.clique{
+    cursor: pointer;
+}
+tr th{
+    border: 1px solid;
+}
+td{
+    border: 1px solid;
+}

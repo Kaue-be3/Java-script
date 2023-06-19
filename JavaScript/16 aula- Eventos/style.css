@@ -1,0 +1,7 @@
+.modo{
+    border: 1px solid;
+    border-radius: 20px;
+    width: 50px;
+    transition: .80s;
+    color: aquamarine;
+}

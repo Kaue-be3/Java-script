@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="carregaraviso()" id="tema">
+    <h2>HTML eventos</h2>
+    <h2 onclick="this.innerHTML='Ooops!'">Clique neste texto</h2>
+
+
+    <h2>HTML eventos com função</h2>
+    <p id="muito" onclick="mudar()">Melhores alunos do IOS</p>
+
+
+    <button onclick="Data()">Que dia é hoje?</button>
+    <p id="demo"></p>
+
+
+    <p onmouseover="mudardefrase()" id="obg" style="width: 140px;" onmouseout="voltarafrase()">Passe o mouse aqui!</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="modo">
+        <input type="radio" name="radio-btn" id="radio1" onclick="carregar()">
+        <input type="radio" name="radio-btn" id="radio2" onclick="carregarr()">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
